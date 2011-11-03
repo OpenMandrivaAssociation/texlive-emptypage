@@ -1,3 +1,9 @@
+# revision 18064
+# category Package
+# catalog-ctan /macros/latex/contrib/emptypage
+# catalog-date 2010-04-30 19:49:05 +0200
+# catalog-license lppl1.2
+# catalog-version 1.2
 Name:		texlive-emptypage
 Version:	1.2
 Release:	1
@@ -43,6 +49,7 @@ on empty pages.
 #- source
 %doc %{_texmfdistdir}/source/latex/emptypage/emptypage.dtx
 %doc %{_texmfdistdir}/source/latex/emptypage/emptypage.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ on empty pages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
