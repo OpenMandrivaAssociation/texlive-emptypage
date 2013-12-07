@@ -6,7 +6,7 @@
 # catalog-version 1.2
 Name:		texlive-emptypage
 Version:	1.2
-Release:	4
+Release:	5
 Summary:	Make empty pages really empty
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/emptypage
