@@ -1,6 +1,6 @@
 Name:		texlive-emptypage
 Version:	18064
-Release:	1
+Release:	2
 Summary:	Make empty pages really empty
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/emptypage
